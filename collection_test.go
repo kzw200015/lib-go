@@ -1,4 +1,4 @@
-package libgo
+package utils
 
 import "testing"
 
