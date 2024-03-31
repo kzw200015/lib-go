@@ -1,4 +1,4 @@
-package libgo
+package utils
 
 func Map[T, U any](src []T, fn func(T) U) []U {
 	dst := make([]U, len(src), len(src))
